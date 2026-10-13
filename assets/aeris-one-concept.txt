@@ -1,0 +1,27 @@
+AERIS ONE / CONCEPT 001
+A different kind of forward.
+
+A fictional electric grand tourer created for an educational website.
+All figures below are illustrative design targets, not tested or certified specifications.
+
+Powertrain: dual-motor electric, all-wheel drive
+Power target: 400 kW / 536 hp
+Acceleration target: 0–100 km/h in 3.2 seconds
+Usable battery concept: 92 kWh
+Range target: approximately 680 km in the Eco concept scenario
+Drag coefficient target: 0.19 Cd
+Charging target: 10–80% in 22 minutes, 800 V architecture
+Charging assumes a compatible high-power DC charger and ideal battery conditions.
+Materials concept: recycled textiles, brushed aluminum, panoramic glass
+
+RANGE LAB ASSUMPTIONS
+Eco: 13.5 kWh / 100 km
+Tour: 16.8 kWh / 100 km
+Sport: 21.3 kWh / 100 km
+Range = 92 × (charge percent / 100) / consumption × 100
+MPGe = 33.7 × 100 / 1.609344 / consumption
+MPGe compares energy use; the concept uses no gasoline.
+Real range would depend on speed, weather, terrain, and battery condition.
+
+Eco marks express design intentions, not environmental certifications.
+The car, brand, and specifications are fictional. Images are AI generated.

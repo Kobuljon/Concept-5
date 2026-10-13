@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151917">
+  <meta name="description" content="Meet AERIS ONE. A fictional electric grand tourer shaped by air. Explore its design, cockpit, and interactive range lab.">
+  <title>AERIS ONE — A different kind of forward.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/hero.jpg" as="image">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#vision">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Aeris home"><span class="brand-symbol" aria-hidden="true">Λ</span> AERIS<span class="brand-dot">®</span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#vision">The vision</a><a href="#design">The design</a><a href="#efficiency">The energy</a>
+    </nav>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="menu-panel"><span>Explore</span><span class="menu-lines" aria-hidden="true"></span></button>
+  </header>
+  <div id="menu-panel" class="menu-panel" hidden inert>
+    <p class="eyebrow">A new perspective on motion</p>
+    <nav aria-label="Expanded navigation"><a href="#vision"><small>01</small>The vision <span>↗</span></a><a href="#design"><small>02</small>The design <span>↗</span></a><a href="#efficiency"><small>03</small>The energy <span>↗</span></a><a href="#interior"><small>04</small>Your space <span>↗</span></a></nav>
+    <p class="menu-note">AERIS ONE / ELECTRIC GRAND TOURER / CONCEPT 001</p>
+  </div>
+  <main>
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-image" role="img" aria-label="Silver Aeris concept car on a desert salt flat at dusk"></div><div class="hero-shade"></div>
+      <div class="hero-content"><div class="hero-kicker"><span class="status-dot"></span> THE ELECTRIC GRAND TOURER <span class="concept-tag">CONCEPT 001 — 2026</span></div><h1 id="hero-title">A different kind<br>of <em>forward.</em></h1><div class="hero-sub"><p>Shaped by air. Driven by possibility.<br>Meet AERIS ONE.</p><a class="circle-link" href="#design" aria-label="Explore the design"><span>↗</span></a></div></div>
+      <div class="hero-bottom"><a class="scroll-cue" href="#vision"><span class="scroll-line"></span> SCROLL TO DISCOVER</a><div class="hero-stat"><strong>680<span>km</span></strong><small>RANGE TARGET</small></div><div class="hero-stat"><strong>3.2<span>s</span></strong><small>0–100 KM/H TARGET</small></div><div class="hero-stat"><strong>100<span>%</span></strong><small>ELECTRIC BY DESIGN</small></div><span class="hero-index">01 / 05</span></div>
+      <div class="hero-caption">A design study. Every possibility begins with a concept.</div>
+    </section>
+    <section class="vision section-pad" id="vision">
+      <div class="section-label"><span>01 / THE VISION</span><span class="mini-cross">+</span></div>
+      <div class="vision-grid"><h2>Less resistance.<br><span>More possibility.</span></h2><div class="vision-copy"><p>What if moving forward meant leaving less behind?</p><p>AERIS ONE imagines a quieter kind of performance. A silhouette that works with the wind. A cabin that gives you room to breathe. And an electric heart built for the long way home.</p><a class="text-link" href="#design">Meet a new form of freedom <span>↗</span></a></div></div>
+      <div class="vision-foot"><span class="pill"><span class="status-dot"></span> PURE ELECTRIC</span><span>Engineered in imagination. Designed for tomorrow.</span><span>↓</span></div>
+    </section>
+    <section class="design-scroll" id="design" aria-labelledby="design-title">
+      <div class="design-sticky">
+        <div class="design-heading"><div><p class="eyebrow">02 / SCULPTED BY AIR</p><h2 id="design-title">Every angle.<br>A new perspective.</h2></div><p class="design-hint">Keep scrolling to move around the car.<br>Or choose your point of view.</p></div>
+        <div class="perspective-scene" id="perspective-scene">
+          <div class="car-frame active" data-frame="0"><img src="assets/hero.jpg" alt="Front three-quarter view of the silver Aeris One" width="1672" height="941" loading="lazy"><span class="hotspot hotspot-front"><span class="hotspot-dot">+</span><span>LIGHT, REDEFINED<br><small>Precision LED signature</small></span></span></div>
+          <div class="car-frame" data-frame="1" aria-hidden="true"><img src="assets/profile.jpg" alt="Side silhouette showing the low aerodynamic profile" width="1672" height="941" loading="lazy"><span class="hotspot hotspot-side"><span class="hotspot-dot">+</span><span>FOLLOW THE AIR<br><small>0.19 Cd drag target</small></span></span></div>
+          <div class="car-frame" data-frame="2" aria-hidden="true"><img src="assets/rear.jpg" alt="Rear three-quarter view with a continuous red light strip" width="1672" height="941" loading="lazy"><span class="hotspot hotspot-rear"><span class="hotspot-dot">+</span><span>A LASTING IMPRESSION<br><small>Full-width light architecture</small></span></span></div>
+          <div class="view-grid" aria-hidden="true"></div>
+        </div>
+        <div class="design-bottom"><div class="view-caption"><span id="view-number">01 — 03</span><p id="view-description">The first impression. Impossible to forget.</p></div><div class="view-controls" role="group" aria-label="Car perspectives"><button class="active" data-view="0" aria-pressed="true">01 <span>Front</span></button><button data-view="1" aria-pressed="false">02 <span>Profile</span></button><button data-view="2" aria-pressed="false">03 <span>Rear</span></button></div><span class="orbit-icon" aria-hidden="true">↻</span></div>
+        <div class="design-progress"><span></span></div>
+      </div>
+    </section>
+    <section class="efficiency section-pad" id="efficiency" aria-labelledby="energy-title">
+      <div class="section-label"><span>03 / INTELLIGENT ENERGY</span><span class="mini-cross">+</span></div>
+      <div class="energy-header"><h2 id="energy-title">Go further.<br><span>Leave less.</span></h2><p>Exceptional journeys start with thoughtful energy.<br>Explore how your drive changes your range.</p></div>
+      <div class="range-lab"><div class="lab-controls"><p class="eyebrow">YOUR DRIVE. YOUR POSSIBILITIES.</p><h3>Find your range.</h3><div class="mode-buttons" role="group" aria-label="Driving mode"><button data-mode="eco" class="active" aria-pressed="true">Eco</button><button data-mode="tour" aria-pressed="false">Tour</button><button data-mode="sport" aria-pressed="false">Sport</button></div><p class="mode-description" id="mode-description">A lighter touch. Maximum distance.</p><div class="range-label"><label for="charge">Battery charge</label><output id="charge-label" for="charge">100%</output></div><input id="charge" type="range" min="20" max="100" value="100" step="1"><div class="range-ticks"><span>20%</span><span>100%</span></div><p class="lab-note">Illustrative model using a 92 kWh usable battery. Actual range would vary with speed, weather, terrain, and battery condition.</p></div><div class="lab-result"><span class="eyebrow">THE HORIZON IS CALLING</span><div class="range-number"><output id="range-value" aria-live="polite">681</output><span>km</span></div><p>ESTIMATED CONCEPT RANGE</p><div class="range-visual" aria-hidden="true"><span class="range-track"></span><span class="range-car">➤</span><span class="range-destination">✳</span></div><div class="energy-metrics"><div><strong id="consumption">13.5</strong><span>kWh / 100 km</span></div><div><strong id="mpge">155</strong><span>MPGe equivalent*</span></div><div><strong>0</strong><span>tailpipe emissions</span></div></div></div></div>
+      <p class="calculation-note">*MPGe is an energy-equivalent comparison, not gasoline consumption. AERIS ONE uses no gasoline. All figures are fictional design targets, not tested or certified ratings.</p>
+      <div class="eco-marks"><div><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M32 7C12 5 6 13 9 24c3 11 22 10 23-17Z M10 31 26 15 M17 24v-9"/></svg><div><strong>Zero tailpipe</strong><span>All-electric architecture</span></div></div><div><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="m14 12 6-8 8 13m-5-3 5 3 1-6M30 21l5 10H19m4-4-4 4 4 4M15 31H5l8-14m1 6-1-6-6 1"/></svg><div><strong>Considered materials</strong><span>Recycled-content interior concept</span></div></div><div><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M23 3 9 23h12l-3 14 14-22H20Z"/></svg><div><strong>Energy, recovered</strong><span>Regenerative braking concept</span></div></div><div class="eco-disclaimer">Design intentions.<br>Not environmental certifications.</div></div>
+    </section>
+    <section class="interior" id="interior"><img src="assets/interior.jpg" alt="Minimalist ivory and graphite cockpit, panoramic glass roof, and sculptural seats" width="1672" height="941" loading="lazy"><div class="interior-shade"></div><div class="interior-copy"><p class="eyebrow">04 / A SPACE TO EXHALE</p><h2>The world moves.<br>You find <em>stillness.</em></h2><p>Open horizons. Tactile materials. Technology that<br class="desktop-only"> feels instinctive. Your own quiet in a moving world.</p><span class="pill">PANORAMIC BY NATURE</span></div><div class="interior-bottom"><span>01 — A SANCTUARY IN MOTION</span><span>RECYCLED TEXTILES / AMBIENT LIGHT / OPEN SKY</span></div></section>
+    <section class="final-section section-pad" id="specifications"><div class="section-label"><span>05 / BEYOND THE EXPECTED</span><span class="mini-cross">+</span></div><div class="final-grid"><div><p class="eyebrow">AERIS ONE</p><h2>The future isn't far.<br><em>It's forward.</em></h2></div><div class="final-action"><p>A bold idea, made tangible.<br>Explore the thinking behind the form.</p><button class="button-primary" id="specs-open">Explore the specifications <span>↗</span></button></div></div><div class="spec-strip"><div><span>POWER TARGET</span><strong>400 <small>kW</small></strong></div><div><span>DRAG TARGET</span><strong>0.19 <small>Cd</small></strong></div><div><span>BATTERY CONCEPT</span><strong>92 <small>kWh</small></strong></div><div><span>10–80% CHARGE TARGET</span><strong>22 <small>min</small></strong></div></div></section>
+  </main>
+  <footer><a class="wordmark" href="#top"><span class="brand-symbol" aria-hidden="true">Λ</span> AERIS<span class="brand-dot">®</span></a><p>A fictional concept. A real sense of possibility.<br>Created as an educational web design & GitHub Pages project.</p><a href="#top" class="back-top">BACK TO TOP <span>↑</span></a><div class="footer-bottom"><span>© 2026 AERIS CONCEPT STUDIO — EDUCATIONAL DESIGN STUDY</span><span>Original AI-generated imagery · Concept specifications only</span></div></footer>
+  <dialog id="specs-dialog" aria-labelledby="specs-title"><button class="dialog-close" aria-label="Close specifications">×</button><p class="eyebrow">CONCEPT 001 / TECHNICAL OVERVIEW</p><h2 id="specs-title">AERIS ONE</h2><p class="dialog-intro">An imagined electric grand tourer. These are design targets, not production specifications.</p><dl><div><dt>Powertrain</dt><dd>Dual-motor electric / all-wheel drive</dd></div><div><dt>Peak power target</dt><dd>400 kW / 536 hp</dd></div><div><dt>0–100 km/h target</dt><dd>3.2 seconds</dd></div><div><dt>Usable battery concept</dt><dd>92 kWh</dd></div><div><dt>Range target</dt><dd>680 km (Eco concept scenario)</dd></div><div><dt>Drag coefficient target</dt><dd>0.19 Cd</dd></div><div><dt>Fast charge target</dt><dd>10–80% in 22 min / 800 V concept</dd></div><div><dt>Interior concept</dt><dd>Recycled textiles / panoramic glass</dd></div></dl><p class="dialog-note">Charging target assumes a compatible high-power DC charger and ideal battery conditions. No vehicle or certification is implied.</p><a class="button-primary" href="assets/aeris-one-concept.txt" download>Download the concept brief <span>↓</span></a></dialog>
+</body>
+</html>
